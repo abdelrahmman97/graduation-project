@@ -16,8 +16,8 @@ Project Advisors:
  - Dr. Safynaz Abdel-Fattah
 
 Submitted by:
-- Soliman Ali Soliman
 - Youssof Harby
+- Soliman Ali Soliman
 - Rabee Adel Beabesh
 - Mohamed Ahmed Mohamed
 - Abdelrahman Mahmoud Mohamed
