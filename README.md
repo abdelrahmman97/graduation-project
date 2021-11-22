@@ -4,16 +4,15 @@
 ## Medical Care
 
 
-Graduation Project, Part-I (CS)
+Graduation Project
 
 Computer Science Department
 
-FCI, LUXOR
+FCI, Luxor University
 
 
 Project Advisors:
  - Dr. Mohamed Abdel-Hameid
- - Dr. Safynaz Abdel-Fattah
 
 Submitted by:
 - Youssof Harby
