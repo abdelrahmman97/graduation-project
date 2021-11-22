@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.patient.PatientFragment" >
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/go_to_diagnose_p"
+        android:layout_width="195dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_btn_diagnose"
+        android:text="@string/diagnose"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:iconPadding="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/diagnose_text_btn_p"
+        android:layout_width="160dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/btn_diagnose"
+        android:text="@string/diagnose_with_text"
+        android:textAllCaps="false"
+        android:textColor="@color/_364F6B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconPadding="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/go_to_diagnose_p" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/view_medical_history_p"
+        android:layout_width="160dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/btn_diagnose"
+        android:text="@string/view_old_medical_history"
+        android:textAllCaps="false"
+        android:textColor="@color/_364F6B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconPadding="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/go_to_diagnose_p" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/generate_qr_btn_p"
+        android:layout_width="160dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/icon_qrcode"
+        android:text="@string/generate_qr_code"
+        android:textAllCaps="false"
+        android:textColor="@color/_364F6B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconPadding="2dp"
+        app:layout_constraintStart_toStartOf="@+id/diagnose_text_btn_p"
+        app:layout_constraintTop_toBottomOf="@+id/diagnose_text_btn_p" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_old_medical_history_btn_p"
+        android:layout_width="160dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/add_medical_history"
+        android:text="@string/add_old_medical_history"
+        android:textAllCaps="false"
+        android:textColor="@color/_364F6B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconPadding="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_medical_history_p" />
+</androidx.constraintlayout.widget.ConstraintLayout>

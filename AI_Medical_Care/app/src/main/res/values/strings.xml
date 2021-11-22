@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">AI Medical Care</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Login & Register screens -->
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username">Username</string>
+    <string name="full_name">Full name</string>
+    <string name="ssn">SSN</string>
+    <string name="emsn">EMSN</string>
+
+    <string name="doctor">Doctor</string>
+    <string name="patient">Patient</string>
+
+    <!-- Side Nav -->
+    <string name="menu_home">Home</string>
+    <string name="menu_patient">Patient</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="password">Password</string>
+
+    <!-- Home screen -->
+    <string name="diagnose">Diagnose</string>
+    <string name="diagnose_with_text">Diagnose With Text</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="Check_pending_diagnose">Check Pending Diagnose</string>
+    <string name="register_as">Register as</string>
+    <string name="menu_exit">Exit</string>
+
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="recording">Recording</string>
+    <string name="result">Result</string>
+    <string name="write_down_your_feelings">Write down your feelings</string>
+
+    <string name="save">Save</string>
+    <string name="generate">Generate</string>
+    <string name="disease">Disease</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="treatments">Treatments</string>
+    <string name="medical_history">Medical History</string>
+    <string name="disease_name">Disease Name</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+    <string name="add_old_medical_history">Add old medical history</string>
+    <string name="view_old_medical_history">View medical history</string>
+
+    <string name="lorem"><b>Symptoms</b><br />
+        Lorem ipsum dolor sit amet, consetetur sadipscing
+elitr, sed diam nonumy eirmod tempor invidunt ut
+labore et dolore magna aliquyam erat, sed diam
+voluptua. At vero eos et accusam et justo duo
+dolores et ea rebum. Stet clita kasd gubergren, no
+sea takimata sanctus est Lorem ipsum dolor sit
+amet. Lorem ipsum dolor sit amet. At vero eos et
+accusam et justo duo dolores et ea rebum.<br />
+        <b>Disease</b><br />
+        Lorem ipsum dolor sit amet, consetetur sadipscing
+elitr, sed diam nonumy eirmod tempor invidunt ut
+labore et dolore magna aliquyam erat, sed diam
+voluptua. At vero eos et accusam et justo duo
+dolores et ea rebum. Stet clita kasd gubergren, no
+sea takimata sanctus est Lorem ipsum dolor sit
+amet. Lorem ipsum dolor sit amet. At vero eos et
+accusam et justo duo dolores et ea rebum.<br />
+        <b>Treatments</b><br />
+        Lorem ipsum dolor sit amet, consetetur sadipscing
+elitr, sed diam nonumy eirmod tempor invidunt ut
+labore et dolore magna aliquyam erat, sed diam
+voluptua. At vero eos et accusam et justo duo
+dolores et ea rebum. Stet clita kasd gubergren, no
+sea takimata sanctus est Lorem ipsum dolor sit
+amet. Lorem ipsum dolor sit amet. At vero eos et
+accusam et justo duo dolores et ea rebum.</string>
+
+</resources>
